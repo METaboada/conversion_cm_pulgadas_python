@@ -1,0 +1,34 @@
+-----------------------------------------------------------------
+Problemática:
+La cía estadounidense está diseñando muebles con planos en cm y las maquinarias están el pulgadas
+Esto trae problemas en el diseño y fabricación de los muebles, por problemas de conversión de las medidas
+
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+Algoritmo:
+1. Solicitar al usuario las medidas de las piezas del mueble en cm
+2. Convertir las medidas de cm a pulgadas
+3. Mostrar las medidas convertidas en pulgadas al usuario
+
+-----------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+Pseudocódigo:
+Inicio
+    # Paso1: Solicitar al usuario las medidas de las piezas del mueble en cm
+    Mostrar mensaje "Por favor, ingresar las medidas de la pieza del mueble en centímetros: "
+    Asignar el resultado a una variable medida_en_centimetros tipo flotante
+
+    # Paso2: Convertir las medidas de cm a pulgadas
+    Convertir media_en_pulgadas = medida_en_centimetros / 2.54
+
+    # Paso3: Mostrar las medidas convertidas en pulgadas al usuario
+    Mostrar mensaje "Las medidas en pulgadas de la pieza ingresada son", media_en_pulgadas, "pulgadas"
+Fin programa
+
+-----------------------------------------------------------------
+
+
+
